@@ -4,25 +4,18 @@ body {
 .header {
     background-image: url(bsqueezed_bg_dark.jpg)
 }
-
-.banner {
-    position: absolute;
-}
-
 .header-text {
     position: relative;
     top: 10px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    /* float: left; */
+}
+.header-text-color {
+    color: rgb(176, 204, 66)
 }
 
 .balcom-text {
     color: rgb(122, 43, 130)
-}
-
-.header-text-color {
-    color: rgb(176, 204, 66)
 }
 
 .box {
@@ -31,6 +24,7 @@ body {
     top: -10px;
     margin-bottom: 100px;
     width: 291px;
+     padding-top: 45px;
 }
 
 .box:before {
@@ -61,23 +55,19 @@ body {
 .form {
     margin: 0 40px -12px 40px;
     padding-bottom: 22px;
-}
-
-.sidepanel {
-    padding-top: 45px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .radius {
     border-radius: 30px;
 }
-
 .radius-text {
     border-radius: 10px;
 }
 .main-text {
     margin-top: 32px;
     font-family: 'Ubuntu', serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .copyright {
@@ -98,11 +88,13 @@ body {
     border: solid;
     border: 2px solid;
     border-color: grey;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .forward-btn {
     color: rgb(122, 43, 130);
     width: 120px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .bee {
@@ -115,6 +107,7 @@ body {
 
 .footer {
     font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
