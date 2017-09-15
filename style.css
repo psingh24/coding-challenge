@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(232, 232, 232)
+}
+.header {
+    background-image: url(bsqueezed_bg_dark.jpg)
+}
+
+.banner {
+    position: absolute;
+}
+
+.header-text {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    /* float: left; */
+}
+
+.balcom-text {
+    color: rgb(122, 43, 130)
+}
+
+.header-text-color {
+    color: rgb(176, 204, 66)
+}
+
+.box {
+    background: rgb(176, 204, 66);
+    position: relative;
+    top: -10px;
+    margin-bottom: 100px;
+    width: 291px;
+}
+
+.box:before {
+    border-bottom: 35px solid rgb(176, 204, 66);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 98px;
+    position: absolute;
+    top: -15px;
+    width: 0;
+}
+
+.box:after {
+    content: "";
+    height: 0;
+    left: 0px;
+    position: absolute;
+    width: 0;
+    width: 0;
+    height: 0;
+    border-left: 148px solid transparent;
+    border-right: 143px solid transparent;
+    border-top: 91px solid rgb(176, 204, 66)
+}
+
+.form {
+    margin: 0 40px -12px 40px;
+    padding-bottom: 22px;
+}
+
+.sidepanel {
+    padding-top: 45px;
+}
+
+.radius {
+    border-radius: 30px;
+}
+
+.radius-text {
+    border-radius: 10px;
+}
+.main-text {
+    margin-top: 32px;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
+}
+
+.copyright {
+    margin-top: 80px;
+}
+
+.main-content {
+    margin-bottom: 35px;
+    clear: both;
+    background-color: rgb(232, 232, 232)
+}
+
+
+
+.btn-sumbit {
+    background-color: rgb(122, 43, 130);
+    color: white;
+    border: solid;
+    border: 2px solid;
+    border-color: grey;
+}
+
+.forward-btn {
+    color: rgb(122, 43, 130);
+    width: 120px;
+}
+
+.bee {
+    margin-top: 20px;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.footer {
+    font-size: 11px;
+}
+
+a {
+    color: rgb(122, 43, 130);
+}
+
+.align {
+    position: relative;
+    right: 30px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+    .align {
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        height: 218px;
+    }
+    .align {
+        right: -100px;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    .header {
+        height: 250px;
+    }
+    .align {
+        right: -105px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    
+    [class*="col-xs"] {
+        width: 100%;
+    }
+    .box {
+        margin-top: 30px;
+        position: relative;
+        left: 60px;
+    }
+    .align {
+        right: 46px;
+    }
+    .header {
+        height: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .box {
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .box {
+        left: 47px;
+    }
+    .align {
+        left: 5px;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    .box {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .box {
+        left: 6px;
+    }
+}
