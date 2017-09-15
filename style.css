@@ -27,6 +27,8 @@ body {
      padding-top: 45px;
 }
 
+/* Used this website to add carrots to form box:
+https://css-tricks.com/examples/ShapesOfCSS/ */
 .box:before {
     border-bottom: 35px solid rgb(176, 204, 66);
     border-left: 50px solid transparent;
